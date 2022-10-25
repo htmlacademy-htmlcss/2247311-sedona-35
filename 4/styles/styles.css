@@ -32,6 +32,19 @@ body {
     color: #000;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .all-list {
     list-style: none;
 }
@@ -113,8 +126,13 @@ body {
     text-align: center;
 }
 
+.features-title {
+    min-height: 282px;
+}
+
 .features-item-text {
     width: 400px;
+    min-height: 384px;
 }
 
 .features-blue .features-item-wrap {
@@ -156,6 +174,7 @@ body {
 
 .advantages-item {
     width: 400px;
+    min-height: 384px;
 }
 
 .advantages {
@@ -185,6 +204,7 @@ body {
     text-align: center;
     max-width: 592px;
     margin: 0 auto;
+    min-height: 406px;
 }
 
 .hotel-search-link {
@@ -204,6 +224,7 @@ body {
     text-align: center;
     color: #FFFFFF;
     background-color: #82B3D3;
+    min-height: 414px;
 }
 
 .distribution-paragraph {
@@ -245,23 +266,23 @@ body {
 
 .footer {
     display: flex;
-    max-width: 1060px;
+    width: 1060px;
     margin: 0 auto;
     align-items: center;
+    justify-content: space-between;
+    min-height: 120px;
 }
 
 .footer-number {
     font-size: 40px;
     line-height: 40px;
     text-transform: uppercase;
-    margin-left: 235px;
     width: 331px;
     text-decoration: none;
     color: inherit;
 }
 
 .html-academy {
-    margin-left: 235px;
     text-decoration: none;
     color: inherit;
 }
@@ -281,6 +302,7 @@ body {
     background-repeat: no-repeat;
     color: #FFFFFF;
     background-color: #82B3D3;
+    min-height: 412px;
 }
 
 .first-screen-title {
@@ -288,11 +310,13 @@ body {
     font-size: 60px;
     line-height: 78px;
     margin-left: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .breadcrumbs {
     display: flex;
-    margin-left:70px;
+    margin-left: 70px;
     padding: 0;
 }
 
