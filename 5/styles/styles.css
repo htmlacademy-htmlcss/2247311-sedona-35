@@ -60,6 +60,15 @@ body {
     margin: 0 auto;
 }
 
+.header {
+    position: relative;
+    padding-left: 200px;
+}
+
+.header-logo-svg {
+    position: absolute;
+}
+
 .index-logo {
     display: block;
     margin: 0 auto;
@@ -68,13 +77,12 @@ body {
 .navigation {
     display: flex;
     width: 1060px;
-    height: 64px;
     margin: 0 auto;
 }
 
 .navigation-list {
     width: 340px;
-    margin-left: 44px;
+    margin-left: 90px;
     margin: 0 0 0 28px;
     padding: 0;
     display: flex;
