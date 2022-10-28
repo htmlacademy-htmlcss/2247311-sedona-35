@@ -49,12 +49,12 @@
             </ul>
             <ul class="naviation-user all-list">
                 <li class="navigation-item user">
-                    <a class="navigation-link" href="#">
+                    <a class="navigation-link navigation-link-icon" href="#">
                         <span class="visually-hidden">Поиск</span>
                     </a>
                 </li>
                 <li class="navigation-item user">
-                    <a class="navigation-link" href="#">
+                    <a class="navigation-link navigation-link-icon" href="#">
                         <span class="lovely-number">12</span>
                         <span class="visually-hidden">Избранное</span>
                     </a>
@@ -67,7 +67,7 @@
             </ul>
         </nav>
     </header>
-    <main class="main container index-main">
+    <main class="main-container index-main">
         <section class="first-screen">
             <h1 class="visually-hidden">Сайт города Седона</h1>
             <svg class="index-logo" width="458" height="485" viewBox="0 0 458 352" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,13 +104,13 @@
                 </div>
                 <div class="features-item-wrap">
                     <div class="features-item-text dark-gray">
-                        <b class="features-item-title">Красивая дорога</b>
+                        <b class="features-item-title">Красивая<br>дорога</b>
                         <p class="features-item-paragraph">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                     </div>
                 </div>
                 <div class="features-item-wrap">
                     <div class="features-item-text gray">
-                        <b class="features-item-title">Мало туристов</b>
+                        <b class="features-item-title">Мало<br>туристов</b>
                         <p class="features-item-paragraph">Большинство едет в Гранд Каньон и толпится там</p>
                     </div>
                 </div>
@@ -130,16 +130,22 @@
             </div>
             <div class="advantages">
                 <div class="advantages-item">
-                    <b class="advantages-title">Жильё</b>
-                    <p class="advantages-paragraph">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                    <div class="advantages-text">
+                        <b class="advantages-title">Жильё</b>
+                        <p class="advantages-paragraph">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                    </div>
                 </div>
                 <div class="advantages-item white">
-                    <b class="advantages-title">Еда</b>
-                    <p class="advantages-paragraph">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                    <div class="advantages-text">
+                        <b class="advantages-title">Еда</b>
+                        <p class="advantages-paragraph">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                    </div>
                 </div>
                 <div class="advantages-item">
-                    <b class="advantages-title">Сувениры</b>
-                    <p class="advantages-paragraph">Не только китайского, но и настоящего местного производства!</p>
+                    <div class="advantages-text">
+                        <b class="advantages-title">Сувениры</b>
+                        <p class="advantages-paragraph">Не только китайского, но и настоящего местного производства!</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -150,20 +156,22 @@
             <a class="hotel-search-link" id="search" href="#">Поиск гостиницы в Седоне</a>
         </section>
         <section class="distribution">
-            <h2 class="visually-hidden">Подписка на рассылку</h2>
-            <b class="distribution-title heading">Подпишитесь на рассылку</b>
-            <p class="distribution-paragraph subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form class="distribution-form" action="https://echo.htmlacademy.ru/" method="post">
-                <label>
-                    <span class="visually-hidden" hidden>Ваш e-mail</span>
-                    <input class="field"
-                    placeholder="Ваш e-mail"
-                    type="email"
-                    name="distribution-email"
-                    id="distribution-email" required>
-                </label>
-                <button class="button-distribution-email" type="submit">Подписаться</button>
-            </form>
+            <div class="distribution-wrap">
+                <h2 class="visually-hidden">Подписка на рассылку</h2>
+                <b class="distribution-title heading">Подпишитесь на рассылку</b>
+                <p class="distribution-paragraph subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
+                <form class="distribution-form" action="https://echo.htmlacademy.ru/" method="post">
+                    <label>
+                        <span class="visually-hidden" hidden>Ваш e-mail</span>
+                        <input class="field"
+                        placeholder="Ваш e-mail"
+                        type="email"
+                        name="distribution-email"
+                        id="distribution-email" required>
+                    </label>
+                    <button class="button-distribution-email" type="submit">Подписаться</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
