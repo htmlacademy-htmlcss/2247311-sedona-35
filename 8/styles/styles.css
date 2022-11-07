@@ -700,7 +700,7 @@ body {
 }
 
 .control:focus .control-mark {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
 }
 
 .control:active {
@@ -900,14 +900,14 @@ body {
     background-color: #E6E6E6;
 }
 
-.catalog-filter-label:focus {
+.catalog-filter-label:focus-visible {
     background-color: #E6E6E6;
-    border: 3px solid #83B3D3;
+    outline: solid 3px #83b3d3;
 }
 
 .catalog-filter-label:active {
     background-color: #F2F2F2;
-    border: 2px solid #000000;
+    outline: 2px solid #000000;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -917,11 +917,11 @@ body {
 }
 
 .range-toggle:focus {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
 }
 
 .range-toggle:active {
-    border: 2px solid #83B3D3;
+    outline: 2px solid #83B3D3;
 }
 
 .hotels-filter-item:not(:last-child) {
@@ -1602,7 +1602,7 @@ body {
     margin-top: 16px;
     left: -116px;
     z-index: 1;
-    /* display: none; */
+    display: none;
 }
 
 .tooltip {
