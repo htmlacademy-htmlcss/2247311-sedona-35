@@ -1444,7 +1444,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-    font-family: 'PT Sans';
+    font-family: "PT Sans", "Arial", sans-serif;
     width: 100%;
     background-image: url("../images/navigation/modal-search.svg");
     background-repeat: no-repeat;
