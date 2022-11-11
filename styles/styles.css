@@ -39,7 +39,7 @@ body {
 }
 
 img {
-    height: auto;
+    object-fit: contain;
     max-width: 100%;
 }
 
