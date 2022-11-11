@@ -621,7 +621,7 @@ img {
     color: #FFFFFF;
     background-color: #82B3D3;
     padding-bottom: 68px;
-    background-size: 1200px 413px;
+    background-size: cover
 }
 
 .first-screen-title {
@@ -640,7 +640,7 @@ img {
     margin-left: 69px;
     padding: 0;
     margin-top: 7px;
-    margin-bottom: 23px;
+    margin-bottom: 29px;
     align-items: center;
 }
 
@@ -686,7 +686,7 @@ img {
 
 .hotels-filter {
     display: flex;
-    align-items: center;
+    align-content: flex-start;
 }
 
 .hotels-filter-list {
@@ -712,7 +712,7 @@ img {
 .control-label {
     padding-left: 36px;
     line-height: 23px;
-
+    display: block;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
@@ -864,7 +864,7 @@ img {
 
 .range-filter-group {
     margin-left: 143px;
-    margin-top: 8px;
+    margin-top: 11px;
     margin-bottom: 0;
     padding: 0;
     border: none;
@@ -1020,7 +1020,7 @@ img {
     background-color: #82B3D3;
     padding: 9px 51px;
     border-radius: 4px;
-    margin-top: 73px;
+    margin-top: 67px;
 }
 
 .submit-filters:hover {
@@ -1240,7 +1240,7 @@ img {
 
 .pagination {
     display: flex;
-    margin-top: 77px;
+    margin-top: 75px;
     padding-left: 0;
     margin-bottom: 155px;
     align-content: center;
